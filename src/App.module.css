@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Pacifico&family=Roboto@1&display=swap');
+
+body {
+  background-color:#c2fa9d;
+  font-family: 'Roboto', sans-serif;
+}
+
+container {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+}

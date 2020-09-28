@@ -1,11 +1,18 @@
-import React from "react";
-import "./style.css";
+import React, { useEffect } from "react";
+import { Chart, Cards, CountryPicker } from "./components";
+import styles from "./App.module.css";
+import { fetchData } from './api';
 
 export default function App() {
+
+
+  
+  
   return (
-    <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+    <div className={styles.container}>
+      <Chart />
+      <Cards />
+      <CountryPicker />
     </div>
   );
 }
